@@ -1,0 +1,9 @@
+# nue_kid_to_bloc
+
+A new Flutter project.
+
+## Getting Started
+
+For help getting started with Flutter, view our online
+[documentation](https://flutter.io/).
+# new-kid-to-bloc
