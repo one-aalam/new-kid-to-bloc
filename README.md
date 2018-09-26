@@ -1,9 +1,7 @@
-# nue_kid_to_bloc
+# Nue Kid to BLOC
 
-A new Flutter project.
+Flutter project that just explores the BLOC pattern
 
-## Getting Started
+## How it looks?
 
-For help getting started with Flutter, view our online
-[documentation](https://flutter.io/).
-# new-kid-to-bloc
+![alt text](./how_this_thing_looks.png)
