@@ -1,6 +1,5 @@
 import 'package:rxdart/rxdart.dart';
 import 'dart:async';
-import 'package:rxdart/streams.dart';
 import 'package:rxdart/subjects.dart';
 import '../models/movie_list_model.dart';
 import '../resources/repository.dart';
