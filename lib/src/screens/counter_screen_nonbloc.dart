@@ -1,7 +1,5 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
-import '../core/bloc.dart';
-import '../blocs/counter_bloc.dart';
 
 class CounterScreen extends StatefulWidget {
   @override
@@ -20,7 +18,6 @@ class _CounterScreenState extends State<CounterScreen> {
 
   @override
   Widget build(BuildContext context) {
-    final CounterBloc bloc = BlocProvider.of<CounterBloc>(context);
 
     return Scaffold(
         appBar: AppBar(title: Text('Counter Stream')),
