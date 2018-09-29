@@ -46,13 +46,15 @@ class SignInScreen extends StatelessWidget {
           ),
 
           //
-
-          RaisedButton(
-            child: Text('Sign In'),
-            color: Colors.amber,
-            onPressed: () {
-
-            },
+          StreamBuilder(
+            stream: bloc.canEnableSubmission,
+            builder: (context, snapshot) {
+              return RaisedButton(
+                child: Text('Sign In'),
+                color: Colors.amber,
+                onPressed: snapshot.hasError || !snapshot.hasData ? null : bloc.submit,
+              );
+            }
           )
         ]
       ),
