@@ -43,7 +43,6 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-      - assets/img/login_logo.png
       - assets/img/placeholder.jpeg
 
   fonts:
