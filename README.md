@@ -1,4 +1,4 @@
-# Nue Kid to BLOC
+# Nue Kid to BLOC (Movy)
 
 An App built to explore and understand Flutter and BLOC pattern through implementation of a movie app(Movy) that allows user to browse movies and mark them favorite. It's very much a WIP, and not very polished but it's getting there (I hope)
 
@@ -7,5 +7,5 @@ An App built to explore and understand Flutter and BLOC pattern through implemen
 - A **Firebase hosted DB** for retaining favorite information (one with the code has write access revoked)
 
 ## How it looks?
+![Home/Movie Listing Screen](./preview/movy_live.gif)
 
-![How it looks?](./Movy_Play.mp4)
